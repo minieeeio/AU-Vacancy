@@ -1,0 +1,44 @@
+{"level":"info","time":"2026-11-06T04:01:15.349Z","seq":1,"component":"browser-library","msg":"Listening on 127.0.0.1:49456"}
+{"level":"info","time":"2026-11-06T04:01:16.472Z","seq":2,"component":"browser-library","event_kind":"grpc","action":"newBrowser","status":"started"}
+{"level":"info","time":"2026-11-06T04:01:17.143Z","seq":3,"component":"browser-library","msg":"Adding browser to stack: chromium, version: 156.0.8078.4"}
+{"level":"info","time":"2026-11-06T04:01:17.143Z","seq":4,"component":"browser-library","msg":"Adding 0 contexts to browser"}
+{"level":"info","time":"2026-11-06T04:01:17.143Z","seq":5,"component":"browser-library","event_kind":"grpc","action":"newBrowser","status":"succeeded"}
+{"level":"info","time":"2026-11-06T04:01:17.146Z","seq":6,"component":"browser-library","event_kind":"grpc","action":"newPage","status":"started"}
+{"level":"info","time":"2026-11-06T04:01:17.146Z","seq":7,"component":"browser-library","msg":"currentBrowser: {\"_contextStack\":[],\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@47cdec901b38f78bfdbc5354afb833c8\"},\"name\":\"chromium\",\"id\":\"browser=7170c7b2-d7fd-4f8c-b460-caa8ce5ce983\",\"headless\":false}"}
+{"level":"info","time":"2026-11-06T04:01:17.162Z","seq":8,"component":"browser-library","msg":"Setting default timeout for context context=4424aacd-422f-4fc9-90c8-e8fc22f06b94 to 10000"}
+{"level":"info","time":"2026-11-06T04:01:17.162Z","seq":9,"component":"browser-library","msg":"Changed active context: context=4424aacd-422f-4fc9-90c8-e8fc22f06b94"}
+{"level":"info","time":"2026-11-06T04:01:17.410Z","seq":10,"component":"browser-library","msg":"Video path: undefined"}
+{"level":"info","time":"2026-11-06T04:01:17.410Z","seq":11,"component":"browser-library","msg":"Changed active page"}
+{"level":"info","time":"2026-11-06T04:01:27.465Z","seq":12,"component":"browser-library","event_kind":"grpc","action":"newPage","status":"succeeded"}
+{"level":"info","time":"2026-11-06T04:01:27.472Z","seq":13,"component":"browser-library","event_kind":"grpc","action":"goTo","status":"started"}
+{"level":"info","time":"2026-11-06T04:01:39.581Z","seq":14,"component":"browser-library","event_kind":"grpc","action":"goTo","status":"succeeded"}
+{"level":"info","time":"2026-11-06T04:01:49.589Z","seq":15,"component":"browser-library","event_kind":"grpc","action":"getElements","status":"started"}
+{"level":"info","time":"2026-11-06T04:01:49.589Z","seq":16,"component":"browser-library","msg":"Strict mode is disabled, return Locator: div.job-tile__header-container > span in page."}
+{"level":"info","time":"2026-11-06T04:01:49.589Z","seq":17,"component":"browser-library","msg":"Wait element to reach attached state."}
+{"level":"info","time":"2026-11-06T04:01:49.611Z","seq":18,"component":"browser-library","msg":"Found 5 elements."}
+{"level":"info","time":"2026-11-06T04:01:49.612Z","seq":19,"component":"browser-library","event_kind":"grpc","action":"getElements","status":"succeeded"}
+{"level":"info","time":"2026-11-06T04:01:49.614Z","seq":20,"component":"browser-library","event_kind":"grpc","action":"getDomProperty","status":"started"}
+{"level":"info","time":"2026-11-06T04:01:49.614Z","seq":21,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div.job-tile__header-container > span >> nth=0 in page."}
+{"level":"info","time":"2026-11-06T04:01:49.630Z","seq":22,"component":"browser-library","msg":"Retrieved dom property for element div.job-tile__header-container > span >> nth=0 containing Production Support Principal"}
+{"level":"info","time":"2026-11-06T04:01:49.630Z","seq":23,"component":"browser-library","event_kind":"grpc","action":"getDomProperty","status":"succeeded"}
+{"level":"info","time":"2026-11-06T04:01:49.632Z","seq":24,"component":"browser-library","event_kind":"grpc","action":"getDomProperty","status":"started"}
+{"level":"info","time":"2026-11-06T04:01:49.632Z","seq":25,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div.job-tile__header-container > span >> nth=1 in page."}
+{"level":"info","time":"2026-11-06T04:01:49.636Z","seq":26,"component":"browser-library","msg":"Retrieved dom property for element div.job-tile__header-container > span >> nth=1 containing Manager - Contact Centre Technology"}
+{"level":"info","time":"2026-11-06T04:01:49.636Z","seq":27,"component":"browser-library","event_kind":"grpc","action":"getDomProperty","status":"succeeded"}
+{"level":"info","time":"2026-11-06T04:01:49.639Z","seq":28,"component":"browser-library","event_kind":"grpc","action":"getDomProperty","status":"started"}
+{"level":"info","time":"2026-11-06T04:01:49.639Z","seq":29,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div.job-tile__header-container > span >> nth=2 in page."}
+{"level":"info","time":"2026-11-06T04:01:49.643Z","seq":30,"component":"browser-library","msg":"Retrieved dom property for element div.job-tile__header-container > span >> nth=2 containing Technical Lead - Mobile & Angular"}
+{"level":"info","time":"2026-11-06T04:01:49.643Z","seq":31,"component":"browser-library","event_kind":"grpc","action":"getDomProperty","status":"succeeded"}
+{"level":"info","time":"2026-11-06T04:01:49.646Z","seq":32,"component":"browser-library","event_kind":"grpc","action":"getDomProperty","status":"started"}
+{"level":"info","time":"2026-11-06T04:01:49.646Z","seq":33,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div.job-tile__header-container > span >> nth=3 in page."}
+{"level":"info","time":"2026-11-06T04:01:49.650Z","seq":34,"component":"browser-library","msg":"Retrieved dom property for element div.job-tile__header-container > span >> nth=3 containing Senior Systems Analyst"}
+{"level":"info","time":"2026-11-06T04:01:49.650Z","seq":35,"component":"browser-library","event_kind":"grpc","action":"getDomProperty","status":"succeeded"}
+{"level":"info","time":"2026-11-06T04:01:49.652Z","seq":36,"component":"browser-library","event_kind":"grpc","action":"getDomProperty","status":"started"}
+{"level":"info","time":"2026-11-06T04:01:49.652Z","seq":37,"component":"browser-library","msg":"Strict mode is enabled, find Locator with div.job-tile__header-container > span >> nth=4 in page."}
+{"level":"info","time":"2026-11-06T04:01:49.657Z","seq":38,"component":"browser-library","msg":"Retrieved dom property for element div.job-tile__header-container > span >> nth=4 containing Business Systems Analyst"}
+{"level":"info","time":"2026-11-06T04:01:49.657Z","seq":39,"component":"browser-library","event_kind":"grpc","action":"getDomProperty","status":"succeeded"}
+{"level":"info","time":"2026-11-06T04:01:49.659Z","seq":40,"component":"browser-library","event_kind":"grpc","action":"closeBrowser","status":"started"}
+{"level":"info","time":"2026-11-06T04:01:49.668Z","seq":41,"component":"browser-library","msg":"Removed page=d99ad012-0f51-4944-aebd-046a050f4955 from context=4424aacd-422f-4fc9-90c8-e8fc22f06b94 page stack"}
+{"level":"info","time":"2026-11-06T04:01:49.767Z","seq":42,"component":"browser-library","event_kind":"grpc","action":"closeBrowser","status":"succeeded"}
+{"level":"info","time":"2026-11-06T04:01:51.077Z","seq":43,"component":"browser-library","event_kind":"grpc","action":"closeAllBrowsers","status":"started"}
+{"level":"info","time":"2026-11-06T04:01:51.077Z","seq":44,"component":"browser-library","event_kind":"grpc","action":"closeAllBrowsers","status":"succeeded"}
